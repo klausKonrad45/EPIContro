@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - EPIControl</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="logo">
+                <h1><span class="highlight">EPI</span>Control</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Voltar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="login">
+        <div class="container">
+            <h2>Faça seu login</h2>
+            <form id="form-login">
+                <div class="form-group">
+                    <label for="email-login">E-mail ou Nome de Usuário</label>
+                    <input type="text" id="email-login" required>
+                </div>
+                <div class="form-group">
+                    <label for="senha-login">Senha</label>
+                    <input type="password" id="senha-login" required>
+                </div>
+                <button type="submit" class="btn">Entrar</button>
+                <p><a href="#">Esqueci minha senha</a></p>
+            </form>
+
+            <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>EPIControl &copy; 2023 | Bandeirantes, Rua Musofago 69 - Arapongas-PR, CEP 86703190</p>
+        </div>
+    </footer>
+
+    <script src="../js/auth.js"></script>
+</body>
+</html>

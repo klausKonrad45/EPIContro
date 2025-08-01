@@ -1,0 +1,57 @@
+/* Dispositivos até 768px (tablets) */
+@media(max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header #logo,
+    header nav {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header ul {
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    #showcase h1 {
+        font-size: 32px;
+    }
+
+    #showcase p {
+        font-size: 18px;
+    }
+
+    .box {
+        float: none;
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+/* Dispositivos até 600px (celulares) */
+@media(max-width: 600px) {
+    #showcase {
+        padding: 60px 0;
+    }
+
+    #showcase h1 {
+        font-size: 28px;
+    }
+
+    #showcase p {
+        font-size: 16px;
+    }
+
+    .btn {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    header li {
+        margin: 0 10px;
+    }
+}
